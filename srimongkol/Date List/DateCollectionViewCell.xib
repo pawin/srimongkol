@@ -29,7 +29,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hVX-ws-0Az">
                                 <rect key="frame" x="0.0" y="0.0" width="319" height="373"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="MeP-pS-ZkZ">
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MeP-pS-ZkZ">
                                         <rect key="frame" x="32" y="32" width="255" height="309"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="สีมงคล" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6iX-gt-GsE">
@@ -42,42 +42,42 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tqb-WD-s59">
-                                                <rect key="frame" x="0.0" y="34" width="255" height="1"/>
+                                                <rect key="frame" x="0.0" y="40" width="255" height="1"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="o0R-L6-6ei"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Dr-bi-nx4">
-                                                <rect key="frame" x="0.0" y="39" width="255" height="30"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Dr-bi-nx4" customClass="ColorView" customModule="srimongkol" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="51" width="255" height="30"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="thL-cv-nLY"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tYs-YH-f5R">
-                                                <rect key="frame" x="0.0" y="73" width="255" height="30"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tYs-YH-f5R" customClass="ColorView" customModule="srimongkol" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="91" width="255" height="30"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="pdq-3F-3TC"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S40-AQ-yoC">
-                                                <rect key="frame" x="0.0" y="107" width="255" height="30"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S40-AQ-yoC" customClass="ColorView" customModule="srimongkol" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="131" width="255" height="30"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="NDg-mf-Ukq"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ayG-yY-vCa">
-                                                <rect key="frame" x="0.0" y="141" width="255" height="20"/>
+                                                <rect key="frame" x="0.0" y="171" width="255" height="20"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="20" id="3K3-uI-FDf"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="สีอัปมงคล" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="arX-Gt-TLy">
-                                                <rect key="frame" x="0.0" y="165" width="255" height="30"/>
+                                                <rect key="frame" x="0.0" y="201" width="255" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="DAc-RC-1mj"/>
                                                 </constraints>
@@ -86,28 +86,21 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Sc-Ma-m3Q">
-                                                <rect key="frame" x="0.0" y="199" width="255" height="1"/>
+                                                <rect key="frame" x="0.0" y="241" width="255" height="1"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="b5U-Wd-d1s"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q3r-Rr-SHD">
-                                                <rect key="frame" x="0.0" y="204" width="255" height="30"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q3r-Rr-SHD" customClass="ColorView" customModule="srimongkol" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="252" width="255" height="30"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="gGl-uB-H4o"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yle-Jg-cHR">
-                                                <rect key="frame" x="0.0" y="238" width="255" height="30"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="30" id="icc-XJ-dhK"/>
-                                                </constraints>
-                                            </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GzY-Mj-Acc">
-                                                <rect key="frame" x="0.0" y="272" width="255" height="37"/>
+                                                <rect key="frame" x="0.0" y="292" width="255" height="17"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </view>
                                         </subviews>
@@ -168,10 +161,14 @@
             <size key="customSize" width="351" height="489"/>
             <connections>
                 <outlet property="badColorTitleLabel" destination="arX-Gt-TLy" id="JdS-cl-2qi"/>
+                <outlet property="badColorView" destination="q3r-Rr-SHD" id="o6G-rp-5Yq"/>
                 <outlet property="containerView" destination="niV-5a-nwa" id="XtC-Ve-Khw"/>
                 <outlet property="dateLabel" destination="vHG-dV-VcL" id="1rd-S3-ieK"/>
+                <outlet property="firstGoodColorView" destination="1Dr-bi-nx4" id="AUw-zh-VTD"/>
                 <outlet property="goodColorTitleLabel" destination="6iX-gt-GsE" id="SUc-Hf-gPR"/>
                 <outlet property="scrollView" destination="TwD-29-ekW" id="2Y6-iT-Pan"/>
+                <outlet property="secondGoodColorView" destination="tYs-YH-f5R" id="aOo-lc-gY9"/>
+                <outlet property="thirdGoodColorView" destination="S40-AQ-yoC" id="pMV-ui-6wn"/>
             </connections>
             <point key="canvasLocation" x="-80.434782608695656" y="294.97767857142856"/>
         </collectionViewCell>

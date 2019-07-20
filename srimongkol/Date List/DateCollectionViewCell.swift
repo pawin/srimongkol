@@ -17,7 +17,12 @@ class DateCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var goodColorTitleLabel: UILabel!
     
+    @IBOutlet weak var firstGoodColorView: ColorView!
+    @IBOutlet weak var secondGoodColorView: ColorView!
+    @IBOutlet weak var thirdGoodColorView: ColorView!
+    
     @IBOutlet weak var badColorTitleLabel: UILabel!
+    @IBOutlet weak var badColorView: ColorView!    
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -31,8 +36,14 @@ class DateCollectionViewCell: UICollectionViewCell {
         containerView.layer.masksToBounds = true
         
         dateLabel.font = UIFont.h1.bold
-        goodColorTitleLabel.font = UIFont.h4.bold
-        badColorTitleLabel.font = UIFont.h4.bold
+        goodColorTitleLabel.font = UIFont.h3.bold
+        badColorTitleLabel.font = UIFont.h3.bold
+        
+        firstGoodColorView.titleLabel.text = "โชคลาภเงินทอง"
+        secondGoodColorView.titleLabel.text = "ผู้อุปถัมภ์ค้ำชู"
+        thirdGoodColorView.titleLabel.text = "อำนาจ/วาสนา"
+        
+        badColorView.titleLabel.text = "กาลกิณี"
     }
 
     var date: Date! {
