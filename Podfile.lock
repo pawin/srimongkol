@@ -14,17 +14,21 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - SwiftDate (6.0.3)
 
 DEPENDENCIES:
   - AFNetworking
+  - SwiftDate
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - SwiftDate
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  SwiftDate: 8d4f14bf1ef68e95094511504856547bf9e3e1a6
 
-PODFILE CHECKSUM: 4a60c5c5a9499015e0418a36e9984692ccc88225
+PODFILE CHECKSUM: c5a118f2f6860b96958fe3eb8ad70dfc52bb95c2
 
 COCOAPODS: 1.7.3

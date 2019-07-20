@@ -12,12 +12,12 @@
 		23AC872722E2E98E00154A09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AC872522E2E98E00154A09 /* Main.storyboard */; };
 		23AC872922E2E98F00154A09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23AC872822E2E98F00154A09 /* Assets.xcassets */; };
 		23AC872C22E2E98F00154A09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AC872A22E2E98F00154A09 /* LaunchScreen.storyboard */; };
-		3CBB06EC22E2FC48003C9116 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBB06EB22E2FC48003C9116 /* CameraViewController.swift */; };
 		23AC873722E2F1CD00154A09 /* DateListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AC873622E2F1CD00154A09 /* DateListViewController.swift */; };
 		23AC873B22E2F3F600154A09 /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AC873922E2F3F600154A09 /* DateCollectionViewCell.swift */; };
 		23AC873C22E2F3F600154A09 /* DateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23AC873A22E2F3F600154A09 /* DateCollectionViewCell.xib */; };
 		23AC874422E3004500154A09 /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AC874322E3004500154A09 /* Localized.swift */; };
 		23AC874522E3047400154A09 /* Localized.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23AC874722E3047400154A09 /* Localized.strings */; };
+		3CBB06EC22E2FC48003C9116 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBB06EB22E2FC48003C9116 /* CameraViewController.swift */; };
 		5746974FC159D141CA49AC96 /* Pods_srimongkol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96231259B80D0F0CDEB32848 /* Pods_srimongkol.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,13 +29,13 @@
 		23AC872822E2E98F00154A09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23AC872B22E2E98F00154A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23AC872D22E2E98F00154A09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CBB06EB22E2FC48003C9116 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		23AC873622E2F1CD00154A09 /* DateListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateListViewController.swift; sourceTree = "<group>"; };
 		23AC873922E2F3F600154A09 /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCollectionViewCell.swift; sourceTree = "<group>"; };
 		23AC873A22E2F3F600154A09 /* DateCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateCollectionViewCell.xib; sourceTree = "<group>"; };
 		23AC874322E3004500154A09 /* Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
 		23AC874622E3047400154A09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localized.strings; sourceTree = "<group>"; };
 		23AC874822E3048600154A09 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localized.strings; sourceTree = "<group>"; };
+		3CBB06EB22E2FC48003C9116 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		61F898122D96F1CF344FDC5E /* Pods-srimongkol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-srimongkol.debug.xcconfig"; path = "Target Support Files/Pods-srimongkol/Pods-srimongkol.debug.xcconfig"; sourceTree = "<group>"; };
 		96231259B80D0F0CDEB32848 /* Pods_srimongkol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_srimongkol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB645FF4C88D5D38179B21BA /* Pods-srimongkol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-srimongkol.release.xcconfig"; path = "Target Support Files/Pods-srimongkol/Pods-srimongkol.release.xcconfig"; sourceTree = "<group>"; };
@@ -407,7 +407,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86UZ79QHR5;
 				INFOPLIST_FILE = srimongkol/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -427,7 +427,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86UZ79QHR5;
 				INFOPLIST_FILE = srimongkol/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
