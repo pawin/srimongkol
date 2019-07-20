@@ -25,6 +25,7 @@
 		23AC875A22E318F500154A09 /* Font Awesome 5 Pro-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = 23AC875422E318F500154A09 /* Font Awesome 5 Pro-Solid-900.otf */; };
 		23AC875D22E3193D00154A09 /* EventPop+UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AC875C22E3193D00154A09 /* EventPop+UIFont.swift */; };
 		23AC876022E31D5400154A09 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AC875F22E31D5400154A09 /* ColorView.swift */; };
+		23AC876222E326CC00154A09 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 23AC876122E326CC00154A09 /* data.json */; };
 		3CBB06EC22E2FC48003C9116 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBB06EB22E2FC48003C9116 /* CameraViewController.swift */; };
 		5746974FC159D141CA49AC96 /* Pods_srimongkol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96231259B80D0F0CDEB32848 /* Pods_srimongkol.framework */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,7 @@
 		23AC875422E318F500154A09 /* Font Awesome 5 Pro-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Pro-Solid-900.otf"; sourceTree = "<group>"; };
 		23AC875C22E3193D00154A09 /* EventPop+UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EventPop+UIFont.swift"; sourceTree = "<group>"; };
 		23AC875F22E31D5400154A09 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		23AC876122E326CC00154A09 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		3CBB06EB22E2FC48003C9116 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		61F898122D96F1CF344FDC5E /* Pods-srimongkol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-srimongkol.debug.xcconfig"; path = "Target Support Files/Pods-srimongkol/Pods-srimongkol.debug.xcconfig"; sourceTree = "<group>"; };
 		96231259B80D0F0CDEB32848 /* Pods_srimongkol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_srimongkol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +130,7 @@
 		23AC874D22E318EC00154A09 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				23AC876122E326CC00154A09 /* data.json */,
 				23AC874E22E318F500154A09 /* Font */,
 			);
 			path = Resources;
@@ -247,6 +250,7 @@
 				23AC875622E318F500154A09 /* Eventpop-Medium.ttf in Resources */,
 				23AC875922E318F500154A09 /* Font Awesome 5 Brands-Regular-400.otf in Resources */,
 				23AC874522E3047400154A09 /* Localized.strings in Resources */,
+				23AC876222E326CC00154A09 /* data.json in Resources */,
 				23AC872922E2E98F00154A09 /* Assets.xcassets in Resources */,
 				23AC875822E318F500154A09 /* Font Awesome 5 Pro-Light-300.otf in Resources */,
 				23AC872722E2E98E00154A09 /* Main.storyboard in Resources */,

@@ -1,0 +1,181 @@
+[
+  {
+    "day": "monday",
+    "money": [{
+      "color": "#9C298E",
+      "label": "ม่วง, เม็ดมะปราง"
+    }],
+    "power": [{
+      "color": "#06B063",
+      "label": "เขียว"
+    }],
+    "help": [{
+      "color": "#58C9E1",
+      "label": "ฟ้า"
+    }, {
+      "color": "#2D2F93",
+      "label": "น้ำเงินสด"
+    }],
+    "misfortune": [{
+      "color": "#EE1B23",
+      "label": "แดง"
+    }]
+  }, {
+    "day": "tuesday",
+    "money": [{
+      "color": "#F35722",
+      "label": "ส้ม"
+    }],
+    "power": [{
+      "color": "#A371B1",
+      "label": "ม่วง"
+    }],
+    "help": [{
+      "color": "#ED2126",
+      "label": "แดง"
+    }],
+    "misfortune": [{
+      "color": "#FEF200",
+      "label": "เหลือง"
+    }, {
+      "color": "#FFFFFF",
+      "label": "ขาว"
+    }]
+  }, {
+    "day": "wednesday",
+    "money": [{
+      "color": "#000000",
+      "label": "ดำ"
+    }, {
+      "color": "#902A26",
+      "label": "น้ำตาลแก่"
+    }, {
+      "color": "#666A6B",
+      "label": "เทาแก่"
+    }],
+    "power": [{
+      "color": "#EB983E",
+      "label": "ส้ม"
+    }, {
+      "color": "#E26236",
+      "label": "แสด"
+    }],
+    "help": [{
+      "color": "#FDF150",
+      "label": "เหลือง"
+    }],
+    "misfortune": [{
+      "color": "#E496AC",
+      "label": "ชมพู"
+    }]
+  }, {
+    "day": "thursday",
+    "money": [{
+      "color": "#DB3A33",
+      "label": "แดง"
+    }],
+    "power": [{
+      "color": "#58C9E1",
+      "label": "ฟ้า"
+    }, {
+      "color": "#2E3193",
+      "label": "น้ำเงิน"
+    }],
+    "help": [{
+      "color": "#06B063",
+      "label": "เขียว"
+    }],
+    "misfortune": [{
+      "color": "#602E91",
+      "label": "ม่วง"
+    }]
+  }, {
+    "day": "friday",
+    "money": [{
+      "color": "#E496AC",
+      "label": "ชมพู"
+    }],
+    "power": [{
+      "color": "#FEF200",
+      "label": "เหลือง"
+    }, {
+      "color": "#FFFFFF",
+      "label": "ขาว"
+    }],
+    "help": [{
+      "color": "#EB983E",
+      "label": "ส้ม"
+    }, {
+      "color": "#E26236",
+      "label": "แสด"
+    }],
+    "misfortune": [{
+      "color": "#000000",
+      "label": "ดำ"
+    }, {
+      "color": "#2E3193",
+      "label": "น้ำเงินเข้ม"
+    }, {
+      "color": "#666A6B",
+      "label": "เทาแก่"
+    }]
+  }, {
+    "day": "saturday",
+    "money": [{
+      "color": "#58C9E1",
+      "label": "ฟ้า"
+    }, {
+      "color": "#2D2F93",
+      "label": "น้ำเงินสด"
+    }],
+    "power": [{
+      "color": "#000000",
+      "label": "ดำ"
+    }, {
+      "color": "#2E3193",
+      "label": "น้ำเงินเข้ม"
+    }, {
+      "color": "#C18428",
+      "label": "น้ำตาล"
+    }],
+    "help": [{
+      "color": "#E496AC",
+      "label": "ชมพู"
+    }],
+    "misfortune": [{
+      "color": "#06B063",
+      "label": "เขียว"
+    }]
+  }, {
+    "day": "sunday",
+    "money": [{
+      "color": "#E496AC",
+      "label": "ชมพู"
+    }],
+    "power": [{
+      "color": "#06B063",
+      "label": "เขียว"
+    }],
+    "help": [{
+      "color": "#000000",
+      "label": "ดำ"
+    }, {
+      "color": "#2E3193",
+      "label": "น้ำเงินเข้ม"
+    }, {
+      "color": "#C18428",
+      "label": "น้ำตาล"
+    }],
+    "misfortune": [{
+      "color": "#58C9E1",
+      "label": "ฟ้า"
+    }, {
+      "color": "#2D2F93",
+      "label": "น้ำเงิน"
+    }]
+  }
+]
+Collapse
+
+
+
