@@ -9,6 +9,7 @@ def pods
   use_frameworks!
 
   pod 'AFNetworking'
+  pod 'SwiftDate'
   
 end
 
