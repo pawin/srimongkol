@@ -12,6 +12,7 @@
 		23AC872722E2E98E00154A09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AC872522E2E98E00154A09 /* Main.storyboard */; };
 		23AC872922E2E98F00154A09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23AC872822E2E98F00154A09 /* Assets.xcassets */; };
 		23AC872C22E2E98F00154A09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AC872A22E2E98F00154A09 /* LaunchScreen.storyboard */; };
+		3CBB06EC22E2FC48003C9116 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBB06EB22E2FC48003C9116 /* CameraViewController.swift */; };
 		23AC873722E2F1CD00154A09 /* DateListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AC873622E2F1CD00154A09 /* DateListViewController.swift */; };
 		23AC873B22E2F3F600154A09 /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AC873922E2F3F600154A09 /* DateCollectionViewCell.swift */; };
 		23AC873C22E2F3F600154A09 /* DateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23AC873A22E2F3F600154A09 /* DateCollectionViewCell.xib */; };
@@ -28,6 +29,7 @@
 		23AC872822E2E98F00154A09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23AC872B22E2E98F00154A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23AC872D22E2E98F00154A09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CBB06EB22E2FC48003C9116 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		23AC873622E2F1CD00154A09 /* DateListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateListViewController.swift; sourceTree = "<group>"; };
 		23AC873922E2F3F600154A09 /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCollectionViewCell.swift; sourceTree = "<group>"; };
 		23AC873A22E2F3F600154A09 /* DateCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				23AC874022E3000F00154A09 /* Localized */,
 				23AC872122E2E98E00154A09 /* AppDelegate.swift */,
 				23AC872322E2E98E00154A09 /* ViewController.swift */,
+				3CBB06EB22E2FC48003C9116 /* CameraViewController.swift */,
 				23AC873822E2F3DF00154A09 /* Date List */,
 				23AC872522E2E98E00154A09 /* Main.storyboard */,
 				23AC872822E2E98F00154A09 /* Assets.xcassets */,
@@ -242,6 +245,7 @@
 				23AC873B22E2F3F600154A09 /* DateCollectionViewCell.swift in Sources */,
 				23AC872422E2E98E00154A09 /* ViewController.swift in Sources */,
 				23AC872222E2E98E00154A09 /* AppDelegate.swift in Sources */,
+				3CBB06EC22E2FC48003C9116 /* CameraViewController.swift in Sources */,
 				23AC873722E2F1CD00154A09 /* DateListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,7 +405,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86UZ79QHR5;
 				INFOPLIST_FILE = srimongkol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -419,7 +425,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86UZ79QHR5;
 				INFOPLIST_FILE = srimongkol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
