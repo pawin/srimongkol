@@ -24,9 +24,10 @@ class DateListViewController: UIViewController, UICollectionViewDelegate, UIColl
         layout.scrollDirection = .horizontal
         layout.minimumInteritemSpacing = 0
         layout.minimumLineSpacing = 0
-        layout.itemSize = CGSize(width: view.frame.width, height: view.frame.height - 200)
+        layout.estimatedItemSize = UICollectionViewFlowLayout.automaticSize
         
         collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        collectionView.contentInsetAdjustmentBehavior = .always
         collectionView.delegate = self
         collectionView.dataSource = self
 
@@ -57,7 +58,8 @@ class DateListViewController: UIViewController, UICollectionViewDelegate, UIColl
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "DateCollectionViewCell", for: indexPath) as! DateCollectionViewCell
         
         let date = Date() + indexPath.row.days
-        cell.dateLabel.text = date.debugDescription + "\(date.weekday)"
+        cell.dateLabel.text = String.localized(key: AllKey.hello) + "วัน" + date.weekdayName(SymbolFormatStyle.default)
+        
         cell.backgroundColor = .white
         
         return cell
@@ -65,5 +67,13 @@ class DateListViewController: UIViewController, UICollectionViewDelegate, UIColl
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let sectionInset = (collectionViewLayout as! UICollectionViewFlowLayout).sectionInset
+        let referenceHeight: CGFloat = collectionView.safeAreaLayoutGuide.layoutFrame.height - sectionInset.top - sectionInset.bottom - collectionView.contentInset.top - collectionView.contentInset.bottom
+        let referenceWidth: CGFloat = collectionView.bounds.width
+        
+        return CGSize(width: referenceWidth, height: referenceHeight)
     }
 }
