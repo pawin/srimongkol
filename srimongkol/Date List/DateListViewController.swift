@@ -16,7 +16,14 @@ class DateListViewController: UIViewController, UICollectionViewDelegate, UIColl
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let barButtonItem = UIBarButtonItem(title: "Settings", style: UIBarButtonItem.Style.plain, target: self, action: #selector(showSettings))
+        //navigationController?.navigationItem.rightBarButtonItem = barButtonItem
+        navigationItem.rightBarButtonItem = barButtonItem
         configureCollectionView()
+    }
+    
+    @objc private func showSettings() {
+        navigationController?.pushViewController(SettingsViewController(), animated: true)
     }
     
     private func configureCollectionView() {
