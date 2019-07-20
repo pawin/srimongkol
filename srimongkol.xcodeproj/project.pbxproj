@@ -12,6 +12,7 @@
 		23AC872722E2E98E00154A09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AC872522E2E98E00154A09 /* Main.storyboard */; };
 		23AC872922E2E98F00154A09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23AC872822E2E98F00154A09 /* Assets.xcassets */; };
 		23AC872C22E2E98F00154A09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AC872A22E2E98F00154A09 /* LaunchScreen.storyboard */; };
+		5746974FC159D141CA49AC96 /* Pods_srimongkol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96231259B80D0F0CDEB32848 /* Pods_srimongkol.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		23AC872822E2E98F00154A09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23AC872B22E2E98F00154A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23AC872D22E2E98F00154A09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F898122D96F1CF344FDC5E /* Pods-srimongkol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-srimongkol.debug.xcconfig"; path = "Target Support Files/Pods-srimongkol/Pods-srimongkol.debug.xcconfig"; sourceTree = "<group>"; };
+		96231259B80D0F0CDEB32848 /* Pods_srimongkol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_srimongkol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB645FF4C88D5D38179B21BA /* Pods-srimongkol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-srimongkol.release.xcconfig"; path = "Target Support Files/Pods-srimongkol/Pods-srimongkol.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5746974FC159D141CA49AC96 /* Pods_srimongkol.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				23AC872022E2E98E00154A09 /* srimongkol */,
 				23AC871F22E2E98E00154A09 /* Products */,
+				9E532A3677E429EDDE3EA875 /* Pods */,
+				45911AEF3EFD7490589BAD81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,24 @@
 			path = srimongkol;
 			sourceTree = "<group>";
 		};
+		45911AEF3EFD7490589BAD81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96231259B80D0F0CDEB32848 /* Pods_srimongkol.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E532A3677E429EDDE3EA875 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61F898122D96F1CF344FDC5E /* Pods-srimongkol.debug.xcconfig */,
+				BB645FF4C88D5D38179B21BA /* Pods-srimongkol.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +96,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23AC873022E2E98F00154A09 /* Build configuration list for PBXNativeTarget "srimongkol" */;
 			buildPhases = (
+				274422DA76EB27DFB36FBCB3 /* [CP] Check Pods Manifest.lock */,
 				23AC871A22E2E98E00154A09 /* Sources */,
 				23AC871B22E2E98E00154A09 /* Frameworks */,
 				23AC871C22E2E98E00154A09 /* Resources */,
+				F24B1310A9411575D0493BC7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		274422DA76EB27DFB36FBCB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-srimongkol-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F24B1310A9411575D0493BC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-srimongkol/Pods-srimongkol-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-srimongkol/Pods-srimongkol-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-srimongkol/Pods-srimongkol-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		23AC871A22E2E98E00154A09 /* Sources */ = {
@@ -280,6 +349,7 @@
 		};
 		23AC873122E2E98F00154A09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F898122D96F1CF344FDC5E /* Pods-srimongkol.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +367,7 @@
 		};
 		23AC873222E2E98F00154A09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB645FF4C88D5D38179B21BA /* Pods-srimongkol.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

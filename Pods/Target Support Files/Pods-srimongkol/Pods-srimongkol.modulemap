@@ -1,0 +1,6 @@
+framework module Pods_srimongkol {
+  umbrella header "Pods-srimongkol-umbrella.h"
+
+  export *
+  module * { export * }
+}
