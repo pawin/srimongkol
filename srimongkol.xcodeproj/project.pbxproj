@@ -17,6 +17,14 @@
 		23AC873C22E2F3F600154A09 /* DateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23AC873A22E2F3F600154A09 /* DateCollectionViewCell.xib */; };
 		23AC874422E3004500154A09 /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AC874322E3004500154A09 /* Localized.swift */; };
 		23AC874522E3047400154A09 /* Localized.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23AC874722E3047400154A09 /* Localized.strings */; };
+		23AC875522E318F500154A09 /* Eventpop-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23AC874F22E318F500154A09 /* Eventpop-Bold.ttf */; };
+		23AC875622E318F500154A09 /* Eventpop-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23AC875022E318F500154A09 /* Eventpop-Medium.ttf */; };
+		23AC875722E318F500154A09 /* Font Awesome 5 Pro-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 23AC875122E318F500154A09 /* Font Awesome 5 Pro-Regular-400.otf */; };
+		23AC875822E318F500154A09 /* Font Awesome 5 Pro-Light-300.otf in Resources */ = {isa = PBXBuildFile; fileRef = 23AC875222E318F500154A09 /* Font Awesome 5 Pro-Light-300.otf */; };
+		23AC875922E318F500154A09 /* Font Awesome 5 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 23AC875322E318F500154A09 /* Font Awesome 5 Brands-Regular-400.otf */; };
+		23AC875A22E318F500154A09 /* Font Awesome 5 Pro-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = 23AC875422E318F500154A09 /* Font Awesome 5 Pro-Solid-900.otf */; };
+		23AC875D22E3193D00154A09 /* EventPop+UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AC875C22E3193D00154A09 /* EventPop+UIFont.swift */; };
+		23AC876022E31D5400154A09 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AC875F22E31D5400154A09 /* ColorView.swift */; };
 		3CBB06EC22E2FC48003C9116 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBB06EB22E2FC48003C9116 /* CameraViewController.swift */; };
 		5746974FC159D141CA49AC96 /* Pods_srimongkol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96231259B80D0F0CDEB32848 /* Pods_srimongkol.framework */; };
 /* End PBXBuildFile section */
@@ -35,6 +43,14 @@
 		23AC874322E3004500154A09 /* Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
 		23AC874622E3047400154A09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localized.strings; sourceTree = "<group>"; };
 		23AC874822E3048600154A09 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localized.strings; sourceTree = "<group>"; };
+		23AC874F22E318F500154A09 /* Eventpop-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eventpop-Bold.ttf"; sourceTree = "<group>"; };
+		23AC875022E318F500154A09 /* Eventpop-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eventpop-Medium.ttf"; sourceTree = "<group>"; };
+		23AC875122E318F500154A09 /* Font Awesome 5 Pro-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Pro-Regular-400.otf"; sourceTree = "<group>"; };
+		23AC875222E318F500154A09 /* Font Awesome 5 Pro-Light-300.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Pro-Light-300.otf"; sourceTree = "<group>"; };
+		23AC875322E318F500154A09 /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Brands-Regular-400.otf"; sourceTree = "<group>"; };
+		23AC875422E318F500154A09 /* Font Awesome 5 Pro-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Pro-Solid-900.otf"; sourceTree = "<group>"; };
+		23AC875C22E3193D00154A09 /* EventPop+UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EventPop+UIFont.swift"; sourceTree = "<group>"; };
+		23AC875F22E31D5400154A09 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 		3CBB06EB22E2FC48003C9116 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		61F898122D96F1CF344FDC5E /* Pods-srimongkol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-srimongkol.debug.xcconfig"; path = "Target Support Files/Pods-srimongkol/Pods-srimongkol.debug.xcconfig"; sourceTree = "<group>"; };
 		96231259B80D0F0CDEB32848 /* Pods_srimongkol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_srimongkol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +90,9 @@
 		23AC872022E2E98E00154A09 /* srimongkol */ = {
 			isa = PBXGroup;
 			children = (
+				23AC875E22E31D4500154A09 /* View */,
+				23AC875B22E3193400154A09 /* Extension */,
+				23AC874D22E318EC00154A09 /* Resources */,
 				23AC874022E3000F00154A09 /* Localized */,
 				23AC872122E2E98E00154A09 /* AppDelegate.swift */,
 				23AC872322E2E98E00154A09 /* ViewController.swift */,
@@ -104,6 +123,43 @@
 				23AC874322E3004500154A09 /* Localized.swift */,
 			);
 			path = Localized;
+			sourceTree = "<group>";
+		};
+		23AC874D22E318EC00154A09 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				23AC874E22E318F500154A09 /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		23AC874E22E318F500154A09 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				23AC874F22E318F500154A09 /* Eventpop-Bold.ttf */,
+				23AC875022E318F500154A09 /* Eventpop-Medium.ttf */,
+				23AC875122E318F500154A09 /* Font Awesome 5 Pro-Regular-400.otf */,
+				23AC875222E318F500154A09 /* Font Awesome 5 Pro-Light-300.otf */,
+				23AC875322E318F500154A09 /* Font Awesome 5 Brands-Regular-400.otf */,
+				23AC875422E318F500154A09 /* Font Awesome 5 Pro-Solid-900.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		23AC875B22E3193400154A09 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				23AC875C22E3193D00154A09 /* EventPop+UIFont.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		23AC875E22E31D4500154A09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				23AC875F22E31D5400154A09 /* ColorView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		45911AEF3EFD7490589BAD81 /* Frameworks */ = {
@@ -184,11 +240,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23AC875522E318F500154A09 /* Eventpop-Bold.ttf in Resources */,
 				23AC873C22E2F3F600154A09 /* DateCollectionViewCell.xib in Resources */,
 				23AC872C22E2E98F00154A09 /* LaunchScreen.storyboard in Resources */,
+				23AC875722E318F500154A09 /* Font Awesome 5 Pro-Regular-400.otf in Resources */,
+				23AC875622E318F500154A09 /* Eventpop-Medium.ttf in Resources */,
+				23AC875922E318F500154A09 /* Font Awesome 5 Brands-Regular-400.otf in Resources */,
 				23AC874522E3047400154A09 /* Localized.strings in Resources */,
 				23AC872922E2E98F00154A09 /* Assets.xcassets in Resources */,
+				23AC875822E318F500154A09 /* Font Awesome 5 Pro-Light-300.otf in Resources */,
 				23AC872722E2E98E00154A09 /* Main.storyboard in Resources */,
+				23AC875A22E318F500154A09 /* Font Awesome 5 Pro-Solid-900.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,9 +303,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23AC875D22E3193D00154A09 /* EventPop+UIFont.swift in Sources */,
 				23AC874422E3004500154A09 /* Localized.swift in Sources */,
 				23AC873B22E2F3F600154A09 /* DateCollectionViewCell.swift in Sources */,
 				23AC872422E2E98E00154A09 /* ViewController.swift in Sources */,
+				23AC876022E31D5400154A09 /* ColorView.swift in Sources */,
 				23AC872222E2E98E00154A09 /* AppDelegate.swift in Sources */,
 				3CBB06EC22E2FC48003C9116 /* CameraViewController.swift in Sources */,
 				23AC873722E2F1CD00154A09 /* DateListViewController.swift in Sources */,

@@ -11,12 +11,24 @@ import SwiftDate
 
 class DateListViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
+    private let imageView = UIImageView()
     private var collectionView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        view.addSubview(imageView)
+        imageView.translatesAutoresizingMaskIntoConstraints = false
+        imageView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+        imageView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+        imageView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        imageView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        
         configureCollectionView()
+        
+        // Show first background image
+        let date = Date()
+        updateImage(weekday: date.weekday)
     }
     
     private func configureCollectionView() {
@@ -42,12 +54,31 @@ class DateListViewController: UIViewController, UICollectionViewDelegate, UIColl
         // Register
         collectionView.register(UINib(nibName: "DateCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "DateCollectionViewCell")
         
+        collectionView.backgroundColor = .clear
+        
         collectionView.reloadData()
+    }
+
+    private func updateImage(weekday: Int) {
+        if let image = UIImage(named: "\(weekday)") {
+            
+            UIView.transition(with: self.imageView,
+                              duration: 0.25,
+                              options: .transitionCrossDissolve,
+                              animations: {
+                                self.imageView.image = image
+            },
+                              completion: nil)
+        }
     }
     
     // MARK: - UICollectionViewDelegate & DataSource
-    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        print(scrollView.contentOffset)
+        let page = scrollView.contentOffset.x / scrollView.bounds.width
+        let date = Date() + Int(page).days
         
+        updateImage(weekday: date.weekday)
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -57,10 +88,7 @@ class DateListViewController: UIViewController, UICollectionViewDelegate, UIColl
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "DateCollectionViewCell", for: indexPath) as! DateCollectionViewCell
         
-        let date = Date() + indexPath.row.days
-        cell.dateLabel.text = String.localized(key: AllKey.hello) + "วัน" + date.weekdayName(SymbolFormatStyle.default)
-        
-        cell.backgroundColor = .white
+        cell.date = Date() + indexPath.row.days
         
         return cell
     }
