@@ -20,6 +20,17 @@ class DateListViewController: UIViewController, UICollectionViewDelegate, UIColl
         //navigationController?.navigationItem.rightBarButtonItem = barButtonItem
         navigationItem.rightBarButtonItem = barButtonItem
         configureCollectionView()
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "ตั้งค่า", style: .plain, target: self, action: #selector(openSetting))
+    }
+    
+    @objc
+    func openSetting() {
+        guard let settingView = UIStoryboard(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "SettingTableViewController") as? SettingTableViewController else {
+            return
+        }
+        
+        navigationController?.pushViewController(settingView, animated: true)
     }
     
     @objc private func showSettings() {
